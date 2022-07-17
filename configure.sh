@@ -1,7 +1,6 @@
 #!/bin/sh
 # V2Ray new configuration
-cat <<-EOF > /etc/v2ray/config.json
-
+cat << EOF > /etc/v2ray/config.json
 {
   "inbounds": [{
     "port": 6899,           
